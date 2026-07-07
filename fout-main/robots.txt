@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://marssign.com/sitemap.xml
