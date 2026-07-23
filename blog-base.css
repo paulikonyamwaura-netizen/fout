@@ -283,3 +283,20 @@ body {
         line-height: 1.8;
     }
 }
+
+/* --- Article / Blog Links --- */
+p a, 
+.blog-content a, 
+.insight-content a {
+    color: #1d87f1;             /* Classic readable link blue */
+    font-weight: 600;           /* Semi-bold */
+    text-decoration: underline; /* Standard link underline */
+    transition: color 0.2s ease;
+}
+
+p a:hover,
+.blog-content a:hover,
+.insight-content a:hover {
+    color: #004499;             /* Darker blue on hover */
+    text-decoration: none;
+}
